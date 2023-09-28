@@ -22,13 +22,7 @@ inside header top part which include logo, links (home, about us etc) and geek b
 
 tailwind properties are defined inside div class
 
-flex: to use flex
-afsd	af 	
-		
-	af 	af 
-![image](https://github.com/EaswaranPottiK/Assignment1ResponsiveLandingPageTailwind/assets/38095510/c9fdda78-8579-475e-b983-82f25dabd014)
-
-
+![image](https://github.com/EaswaranPottiK/Assignment1ResponsiveLandingPageTailwind/assets/38095510/fc681ba8-1f7f-48b8-a7fe-7fed6df4373c)
 
 
 
