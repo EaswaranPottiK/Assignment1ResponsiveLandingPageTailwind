@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header
+      class="flex md:flex-row flex-col justify-center items-center gap-3 mt-4"
+    >
+      <div class="flex justify-center items-center text-lg">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+          ></path>
+        </svg>
+        &nbsp;&nbsp;
+        <span class="font-semibold">Geekster</span>
+      </div>
+      <ul
+        class="flex justify-center gap-5 md:mr-[30%] text-[#4B5563] md:border-l md:border-gray-500"
+      >
+        &nbsp;
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Map</li>
+      </ul>
+      <button class="flex items-center bg-[#F3F4F6] px-3 py-1 text-[#4B5563]">
+        <span>Geek</span>
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-4 h-4 ml-1"
+          viewBox="0 0 24 24"
+        >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </header>
+
+    <div
+      class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+    >
+      <!-- All the text and button goes here -->
+      <div class="md:w-1/2">
+        <h1
+          class="font-semibold text-4xl flex px-[5%] text-center md:text-left"
+        >
+          Before they sold out readymade gluten
+        </h1>
+        <p class="px-[5%] text-center mt-[3%] text-[#4B5563] md:text-left">
+          Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+          plant cold-pressed tacos poke beard tote bag. Heirloom echo park
+          mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon
+          try-hard chambray.
+        </p>
+        <div
+          class="justify-center md:justify-start md:px-[5%] flex mt-[5%] gap-4"
+        >
+          <button class="px-6 py-2 text-white bg-green-500 rounded">Yes</button>
+          <button class="px-6 py-2 text-[#374151] bg-[#f3f4f6] rounded">
+            No
+          </button>
+        </div>
+      </div>
+
+      <!-- Image is displayed here -->
+      <div class="lg:max-w-lg md:w-1/2 pt-6">
+        <!-- lg is for large screen  -->
+        <img class="object-cover object-center rounded" src="./gym.avif" />
+      </div>
+    </div>
+  </body>
+</html>
